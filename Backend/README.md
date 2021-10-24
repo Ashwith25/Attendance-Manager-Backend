@@ -1,4 +1,0 @@
-# Strapi application
-
-A quick description of your strapi application
-Attendance manager backend
