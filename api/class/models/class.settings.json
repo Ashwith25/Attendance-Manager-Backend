@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "classes",
+  "info": {
+    "name": "Class",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "className": {
+      "type": "string"
+    },
+    "students": {
+      "type": "component",
+      "repeatable": true,
+      "component": "student-users.students"
+    },
+    "subject": {
+      "type": "string"
+    },
+    "teacher": {
+      "plugin": "users-permissions",
+      "model": "user"
+    }
+  }
+}

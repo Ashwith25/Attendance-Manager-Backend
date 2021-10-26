@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_student_users_students",
+  "info": {
+    "name": "students",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "student": {
+      "plugin": "users-permissions",
+      "collection": "user"
+    }
+  }
+}
