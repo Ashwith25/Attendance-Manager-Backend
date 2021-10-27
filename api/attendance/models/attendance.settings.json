@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "attendances",
+  "info": {
+    "name": "attendance",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "class": {
+      "model": "class"
+    },
+    "studentPresent": {
+      "type": "component",
+      "repeatable": true,
+      "component": "student-users.students"
+    }
+  }
+}
